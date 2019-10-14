@@ -1,8 +1,7 @@
 # Upgrad_DataScience_Projects
 All Data Science projects completed for PGPDS by Upgrad
 
-## Project 1
-```Stock Market Analysis using SQL```
+## Stock Market Analysis using SQL
 
 **The dataset provided here has been extracted from the NSE website. The Stock price data provided is from 1-Jan-2015 to 31-July-2018 for six stocks Eicher Motors, Hero, Bajaj Auto, TVS Motors, Infosys and TCS.**
 
