@@ -1,7 +1,7 @@
 # Upgrad DataScience Projects
 All Data Science projects completed for PGPDS by Upgrad
 
-##  1) Stock Market Analysis using SQL
+## 1) Stock Market Analysis using SQL
 
 **The dataset provided here has been extracted from the NSE website. The Stock price data provided is from 1-Jan-2015 to 31-July-2018 for six stocks Eicher Motors, Hero, Bajaj Auto, TVS Motors, Infosys and TCS.Aim of analysis is to provide insights to buy or sell the stocks**
 
@@ -27,4 +27,25 @@ The Steps for analysis are as follows:
 * Exploratoratory Data Analysis is done on the dataframe.
 * Plots are created to visualize the important attributes and how they contribute to the supply demand gap in Python as well as Tableau.
 * Final Results and recommendations are provided in the form of PDF with self explanatory plots.
+
+## 3) Lead Scoring Case Study using Logistic Regression
+
+**We have been provided with a leads dataset from the past with around 9000 data points. This dataset consists of various attributes such as Lead Source, Total Time Spent on Website, Total Visits, Last Activity, etc. which may or may not be useful in ultimately deciding whether a lead will be converted or not.**
+
+In this project lead scoring is done for a company.
+The Steps for analysis are as follows:
+* Load the dataset into a dataframe.
+* Perform Data Inspection and  Data Cleaning on the dataframe.
+* Exploratoratory Data Analysis is done on the dataframe.
+* After EDA we have a basic idea of which are the important attributes from the plots created.
+* Datasets is split into test and train datasets
+* Scaling of features is done.
+* Initial model is created and the summary is analyzed to find which are the important attributes.
+* Feature Selection is then done on the train dataset using RFE
+* Lead score is assigned to each record based on the probability calculated from model for conversion.
+* accuracy sensitivity and specificity for various probability cutoffs are plotted to find optimal cutoff point.
+* Predictions are done on the test dataset and accuracy is checked.
+* Calculate the conversion rate of leads at the optimal cutoff lead score and classify them as hot leads.
+* Create Presentation to represent the results of analysis in the form of PDF.
+
 
