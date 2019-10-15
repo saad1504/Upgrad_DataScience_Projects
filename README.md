@@ -48,4 +48,22 @@ The Steps for analysis are as follows:
 * Calculate the conversion rate of leads at the optimal cutoff lead score and classify them as hot leads.
 * Create Presentation to represent the results of analysis in the form of PDF.
 
+## 4) Handwriting Digit Recognition using SVM
+
+**For this problem, we use the MNIST data which is a large database of handwritten digits. The 'pixel values' of each digit (image) comprise the features, and the actual number between 0-9 is the label.Objective of the analysis  is to develop a model using Support Vector Machine which should correctly classify the handwritten digits from 0-9 based on the pixel values given as features.**
+
+In this project hand writing  digit recognition is done using SVM
+The Steps for analysis are as follows:
+* Load the dataset into a dataframe.
+* Perform Data Inspection and  Data Cleaning on the dataframe.
+* Exploratoratory Data Analysis is done on the dataframe.
+* Datasets is split into test and train datasets
+* Scaling of features is done.
+* Linear SVM kernel is used to create a model and accuracy is checked
+* RBF SVM kernel  is used to create a model and accuracy is checked.
+* Hyperparametere tuning is done using GridSearchCV
+* Optimal C and Gamma are found and final model is created using RBF kernel.
+* Check accuracy of model and come to the conclusion that the problem is non-linear in nature.
+
+
 
